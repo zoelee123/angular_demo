@@ -1,0 +1,31 @@
+@import url("reset.css");
+ @font-face {
+  font-family: 'iconfont';
+  src: url("../fonts/fontawesome-webfont.ttf") format("truetype"), url("../fonts/fontawesome-webfont.woff") format("woff"); } 
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+html, body, .wrap {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+body {
+  font-size: 16px;background: #F4F4F4;}
+.header{width: 100%;height: .9rem;line-height: .9rem;position: relative;background: #fff;border-bottom: 1px solid #ccc;font-size: .6rem;}
+.header h2{width: 100%;text-align: center;font-size: .34rem;font-weight:bold;}
+.header span{position: absolute;left: .28rem;font-family: "iconfont";width: 50px;}
+
+.set{width: 100%;height: 100%;overflow: hidden;font-size: .3rem;}
+.set h2{height: .86rem;line-height: .86rem;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;background: #fff;padding-left: .3rem;margin: .3rem 0;color: #A0A0A0;}
+.set p{height: .86rem;line-height: .86rem;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;background: #fff;text-align: center;font-size: .32rem;margin-top: .2rem;color: #676767;}
+.set ul{margin: .3rem 0;background: #fff;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;}
+.set ul li{height: .86rem;margin-left: .3rem;line-height: .86rem;font-family: "iconfont";position: relative;color: #A0A0A0;}
+.set ul span{position: absolute;right: .33rem;font-size: .5rem;}
+.set .lis{border-bottom: 1px solid #ccc;}
+
+
+
+
+
+

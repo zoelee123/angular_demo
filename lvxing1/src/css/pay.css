@@ -1,0 +1,32 @@
+@import url("reset.css");
+ @font-face {
+  font-family: 'iconfont';
+  src: url("../fonts/fontawesome-webfont.ttf") format("truetype"), url("../fonts/fontawesome-webfont.woff") format("woff"); } 
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+html, body, .wrap {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+body {
+  font-size: 16px;background: #F4F4F4;}
+.header{width: 100%;height: .9rem;line-height: .9rem;position: relative;background: #fff;font-size: .4rem;}
+.header h2{width: 100%;text-align: center;font-weight: bold;}
+.header span{position: absolute;left: .28rem;font-family: "iconfont";font-size: .6rem;width: 50px;}
+
+.pay{width: 100%;height: 100%;overflow: hidden;}
+.uls{border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;background: #fff;padding:.3rem 0 .3rem .3rem;margin-top: .25rem;}
+.uls li{font-size: .32rem;line-height: .42rem;}
+.uls li span{padding-left: .2rem;color: #666666;}
+.uls h2{height: .7rem;line-height: .7rem;border-bottom: 1px solid #ccc;margin: -.2rem 0 .2rem 0;}
+
+.footer{width: 100%;height: 1rem;line-height: 1rem;background: #fff;border-top: 1px solid #ccc;}
+.footer h2{width: 100%;height: 100%;display: -webkit-flex;}
+.footer h2 span{display:block;text-align: center;-webkit-flex:1;}
+.footer h2 b{width: 3.6rem;background: #23CD77;color: #fff;font-size: .36rem;text-align: center;display: block;}
+.footer h2 i{font-family: "iconfont";font-style: normal;font-size: .5rem;}
+.footer h2 strong{color: #FE9700;}
+
+

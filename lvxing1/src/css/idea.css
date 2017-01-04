@@ -1,0 +1,30 @@
+@import url("reset.css");
+ @font-face {
+  font-family: 'iconfont';
+  src: url("../fonts/fontawesome-webfont.ttf") format("truetype"), url("../fonts/fontawesome-webfont.woff") format("woff"); } 
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+html, body, .wrap {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+body {
+  font-size: 16px;background: #F4F4F4;}
+.header{width: 100%;height: .9rem;line-height: .9rem;position: relative;background: #fff;border-bottom: 1px solid #ccc;}
+.header h2{width: 100%;text-align: center;font-weight: bold;}
+.header span{position: absolute;left: .28rem;font-family: "iconfont";font-size: .5rem;width: 50px;}
+
+.idea{width: 100%;height: 100%;overflow: hidden;}
+.uls li{height: .8rem;line-height: .8rem;border-bottom: 1px solid #ccc;border-top: 1px solid #ccc;background: #fff;position: relative;padding-left: .33rem;font-size: .28rem;}
+.uls li i{font-style: normal;position: absolute;right: .33rem;font-family: "iconfont";color:#7F7F7F;}
+.lis label{display:inline-block;width: .3rem;height: .3rem;background: url(../img/o2.jpg) no-repeat;background-size: 100% 100%;position: relative;top: .1rem;}
+.lis input{position: relative;left: .3rem;z-index: 1;top: .1rem;opacity: 0;}
+.lis input:checked+label{background: url(../img/o1.jpg) no-repeat;background-size: 100% 100%;}
+.lis span{margin-left: .2rem;}
+
+.idea p{width: 6rem;height: .88rem;line-height: .88rem;text-align: center;color: #fff;background: #23CD77;margin: .65rem auto;font-size: .36rem;}
+.idea .lis_p{height: 1.36rem;line-height: .36rem;font-size: .24rem;color: #7F7F7F;padding: .1rem .44rem;}
+

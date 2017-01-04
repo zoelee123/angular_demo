@@ -1,0 +1,26 @@
+@import url("reset.css");
+ @font-face {
+  font-family: 'iconfont';
+  src: url("../fonts/fontawesome-webfont.ttf") format("truetype"), url("../fonts/fontawesome-webfont.woff") format("woff"); } 
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+html, body, .wrap {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+body {
+  font-size: 16px;background: #F4F4F4;}
+.header{width: 100%;height: 1rem;line-height: 1rem;position: relative;background: #fff;border-bottom: 1px solid #ccc;font-size: .5rem;}
+.header h2{width: 100%;text-align: center;font-size: .34rem;font-weight: bold;}
+.header span{font-family: "iconfont";position: absolute;left: .2rem;font-size: .5rem;}
+.header b{font-weight: normal;font-size: .32rem;position: relative;top: -.07rem;}
+.tell{width: 100%;height: 100%;}
+.tell p{padding: .5rem;font-size: .28rem;color: #9D9D9D;line-height: .37rem;}
+.uls{background: #fff;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;}
+.uls li{height: .87rem;line-height: .87rem;position: relative;border-bottom: 1px solid #ccc;margin-left: .3rem;font-size: .3rem;list-style: none;}
+.uls li:last-child{border-bottom: none;}
+.uls li input{margin-left: .2rem;border: none;outline: none;}
+.uls li span{position: absolute;right:.5rem;top:.2rem;width: 1.8rem;height: .5rem;border: 1px solid #08D554;border-radius: 20px;font-size: .24rem;color: #08D554;text-align: center;line-height: .5rem;}
+.tell h2{height: .87rem;line-height: .87rem;text-align: center;background: #08D554;color: #fff;font-size: .34rem;margin-top: .8rem;}

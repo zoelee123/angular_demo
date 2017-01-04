@@ -1,0 +1,42 @@
+@import url("reset.css");
+ @font-face {
+  font-family: 'iconfont';
+  src: url("../fonts/fontawesome-webfont.ttf") format("truetype"), url("../fonts/fontawesome-webfont.woff") format("woff"); } 
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+html, body, .wrap {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+body {
+  font-size: 16px;}
+
+.header{width: 100%;height: .9rem;line-height: .9rem;position: relative;background: #fff;border-bottom: 1px solid #ccc;}
+.header h2{width: 100%;text-align: center;font-weight:bold;}
+.header span{position: absolute;left: .28rem;font-family: "iconfont";font-size: .5rem;width: 50px;height: 100%;}
+.route{width: 100%;height: 100%;overflow: hidden;}
+.banner{width: 100%;height: 2.8rem;background:url(../img/i5.jpg) no-repeat;background-size: 100% 100%;}
+.nav{width: 100%;height: 2.3rem;background:#23CD77;}
+.nav span{width: 25%;float: left;text-align: center;color: #fff;font-size: .24rem;}
+.nav img{width: 1.2rem;height: 1.2rem;margin: .2rem 0 .1rem 0;}
+.deta ul{width: 100%;padding: 0 .38rem;}
+.deta li{border-bottom: 1px solid #ccc;}
+.deta h2{width: 100%;text-align: center;height: .95rem;line-height: .95rem;font-size: .28rem;}
+.deta h3{width: 2.5rem;margin: auto;display: -webkit-box;height: .5rem;line-height: .5rem;margin-bottom: .4rem;}
+.deta h3 span{display: inline-block;width: .37rem;height: .37rem;background: url(../img/g9.png) no-repeat;background-size: auto 100%;margin-right: .3rem;}
+.deta h3 b{display: inline-block;width: .37rem;height: .37rem;background: url(../img/g11.png) no-repeat;background-size: auto 100%;margin-left: .3rem;}
+.deta input{width: 1.12rem;height: .5rem;text-align: center;display: inline-block;position: relative;top: -.1rem;}
+.deta h4{width: 5.74rem;height:.47rem;margin: auto;margin-bottom: .3rem;}
+.deta h4 span{width:32%;height:100%;display: inline-block;background:#DDDDDD;font-size: .22rem;text-align: center;line-height: .47rem;}
+.deta h4 span:nth-of-type(2){margin: 0 1px;}
+.deta h4 span:nth-of-type(1){border-radius: 5px 0 0 5px;}
+.deta h4 span:nth-of-type(3){border-radius: 0 5px 5px 0;}
+.deta .bg{background:#23CD77;color: #fff;}
+.deta h5{text-align: center;margin: -.1rem 0 .28rem 0;}
+.deta h6{width: 100%;padding-bottom: .2rem;}
+.deta h6 span{display: inline-block;width: .97rem;height: .4rem;background:#DDDDDD;font-size: .24rem;text-align: center;line-height: .4rem;border-radius: 5px;margin:0.45rem .2rem 0;}
+.deta h6 span:nth-of-type(5){margin-right: 0;}
+.deta .no{background: #23CD77;color: #fff;}

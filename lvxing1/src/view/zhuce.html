@@ -1,0 +1,22 @@
+<link rel="stylesheet" type="text/css" href="css/zhuce.css">
+
+<div class="wrap">
+	<header class="header">
+		<span id="back" ui-sref="user">&#xf104; 取消</span>
+		<h2>注册</h2>
+	</header>
+	<section id="home" class="weixin">
+		<div class="top">
+			<h2></h2>
+			<h3>悠步旅行</h3>
+		</div>
+		<form>
+			<input ng-model="n" type="text" placeholder="账号名" maxLength="40"/>
+			<input ng-model="p" type="password" placeholder="密码" maxLength="40"/>
+			<input ng-model="r" type="password" placeholder="确认密码" maxLength="40"/>
+			<input ng-model="m" type="text" placeholder="邮箱" maxLength="100"/>
+			<input ng-model="ph" type="text" placeholder="电话" maxLength="20"/>
+			<input type="button" ng-click="two()" value="注册" class="button" id="btn"/>
+		</form>
+	</section>
+</div>

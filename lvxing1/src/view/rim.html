@@ -1,0 +1,42 @@
+
+<link rel="stylesheet" type="text/css" href="css/rim.css">
+	<div class="wrap" page-iscroll>
+		<header class="header">
+			<span id="back" ui-sref="xingcheng">&#xf104;</span>
+			<h2>搜索周边</h2>
+			<strong></strong>
+		</header>
+		<nav class="nav" id="nav" page-tab>
+			<span class="bg" ng-click="add1()">景点</span><span ng-click="add2()">美食</span><span ng-click="add3()">购物</span><span ng-click="add4()">休闲娱乐</span>
+		</nav>
+		<section id="home" class="rim">
+			<div class="scroller">
+				<div class="n_box">
+					<dl class="dls" ng-repeat="i in data">
+						<dt><img src="{{ i.img }}"></dt>
+						<dd><h2>{{ i.title }}</h2><h3>{{ i.menpiao }}</h3><h4>{{ i.menpiao }}</h4><h5><img src="img/i1.png"><b>{{ i.dizhi }}</b><span>{{ i.lucheng }}</span></h5></dd>
+					</dl>	
+				</div>
+			</div>
+				<div class="n_box">
+					<dl class="dls" ng-repeat="i in data1">
+						<dt><img src="{{ i.img }}"></dt>
+						<dd><h2>{{ i.title }}</h2><h3>{{ i.menpiao }}</h3><h4>{{ i.menpiao }}</h4><h5><img src="img/i1.png"><b>{{ i.dizhi }}</b><span>{{ i.lucheng }}</span></h5></dd>
+					</dl>
+				</div>
+				<div class="n_box">
+					<dl class="dls" ng-repeat="i in data2">
+						<dt><img src="{{ i.img }}"></dt>
+						<dd><h2>{{ i.title }}</h2><h3>{{ i.menpiao }}</h3><h4>{{ i.menpiao }}</h4><h5><img src="img/i1.png"><b>{{ i.dizhi }}</b><span>{{ i.lucheng }}</span></h5></dd>
+					</dl>
+				</div>
+				<div class="n_box">
+					<dl class="dls" ng-repeat="i in data3">
+						<dt><img src="{{ i.img }}"></dt>
+						<dd><h2>{{ i.title }}</h2><h3>{{ i.menpiao }}</h3><h4>{{ i.menpiao }}</h4><h5><img src="img/i1.png"><b>{{ i.dizhi }}</b><span>{{ i.lucheng }}</span></h5></dd>
+					</dl>
+				</div>
+				
+			
+		</section>
+	</div>

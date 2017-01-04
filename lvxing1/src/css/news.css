@@ -1,0 +1,28 @@
+@import url("reset.css");
+ @font-face {
+  font-family: 'iconfont';
+  src: url("../fonts/fontawesome-webfont.ttf") format("truetype"), url("../fonts/fontawesome-webfont.woff") format("woff"); } 
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+html, body, .wrap {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+body {
+  font-size: 16px;background: #F4F4F4;}
+.header{width: 100%;height: .9rem;line-height: .9rem;position: relative;background: #fff;border-bottom: 1px solid #ccc;}
+.header h2{width: 100%;text-align: center;font-weight: bold;}
+.header span{position: absolute;left: .28rem;font-family: "iconfont";font-size: .5rem;width: 50px;}
+
+.news{width: 100%;height: 100%;overflow: hidden;}
+.uls{width: 100%;background:#fff;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;margin-top: .24rem;}
+.uls li{height: 1.1rem;border-bottom: 1px solid #ccc;margin-left: .3rem;position: relative;padding-left: 1.1rem;}
+.uls li img{width: .8rem;height: .8rem;position: absolute;left: 0;top: .12rem;}
+.uls li:nth-of-type(2){border-bottom: none;}
+.uls li b{display: inline-block;width: 3.3rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size: .34rem;margin-top: .18rem;}
+.uls li strong{font-size: .24rem;color: #666;}
+.uls li span{position: absolute;right: .3rem;top:.16rem;color: #666666;font-size: .24rem;}
+
+

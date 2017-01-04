@@ -1,0 +1,32 @@
+@import url("reset.css");
+ @font-face {
+  font-family: 'iconfont';
+  src: url("../fonts/fontawesome-webfont.ttf") format("truetype"), url("../fonts/fontawesome-webfont.woff") format("woff"); } 
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+html, body, .wrap {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+body {
+  font-size: 16px; background: #F4F4F4;}
+
+
+.header{width: 100%;height: .9rem;line-height: .9rem;position: relative;background: #fff;border-bottom: 1px solid #ccc;}
+.header h2{width: 100%;text-align: center;font-weight: bold;}
+.header span{position: absolute;left: .28rem;font-family: "iconfont";font-size: .5rem;width: 50px;height: 100%;}
+
+.guojia{width: 100%;height: 100%;overflow: hidden;}
+.guojia h3{width: 100%;height: .63rem;line-height: .63rem;font-size: .26rem;padding-left: .26rem;}
+.area{width: 100%;display: -webkit-flex;flex-wrap:wrap;}
+.area img{width: 2.22rem;height: 2.22rem;margin: 0 .2rem .22rem 0;}
+.area .img{margin-left: .2rem;}
+.uls{width: 100%;background: #fff;padding: 0 .2rem;}
+.uls li{border-bottom: 1px solid #ccc;height: .9rem;line-height: .9rem;color: #C0BCBB;position: relative;padding-left: 1.04rem;font-size: .3rem;}
+.uls img{width: .69rem;height: .62rem;position: absolute;left: .05rem;top: .15rem;}
+.uls li i{position: absolute;right: .25rem;top:.4rem;width: .38rem;height: .2rem;background: url(../img/e1.png) no-repeat;background-size: 100%  100%;}
+
+

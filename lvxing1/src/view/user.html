@@ -1,0 +1,31 @@
+<link rel="stylesheet" type="text/css" href="css/user.css">
+<link rel="stylesheet" type="text/css" href="css/foot.css">
+	<div class="wrap" page-iscroll>
+		<section id="home" class="user">
+			<div class="scroller">
+				<div class="banner" id="banner">
+					<span id="set" ui-sref="set"></span>
+					<p ui-sref="denglu"><b>登陆</b><img ng-show="img" src="{{img}}"></p>
+				</div>
+				<nav class="nav">
+					<span><i class="i1"></i>每日签到</span>
+					<span id="span" ui-sref="news"><i class="i2"></i>每日消息</span>
+				</nav>
+				<ul class="uls" id="uls">
+					<li title="会员专题"><i class="iconfont">&#xe645;</i>会员专题<b></b></li>
+					<li title="我的订单" ui-sref="indent"><i class="iconfont">&#xe65d;</i>我的订单<b></b></li>
+					<li title="我的收藏" ui-sref="collect"><i class="iconfont">&#xe61e;</i>我的收藏<b></b></li>
+					<li title="代金卷|优惠劵"><i class="iconfont">&#xe780;</i>代金卷|优惠劵<span>旅游、地址、发票</span></li>
+					<li title="上传景点"><i class="iconfont">&#xe638;</i>上传景点<b></b></li>
+					<li class="last" title="常用信息"><i></i>常用信息<b></b></li>
+				</ul>
+				<h2 ui-sref="idea"><i class="iconfont">&#xe60c;</i>意见反馈</h2>
+			</div>
+		</section>
+		<footer class="footer" id="footer">
+			<span title="index.html" ui-sref="index"><img src="img/d17.png"><br>首页</span>
+			<span title="xingcheng.html" ui-sref="xingcheng"><img src="img/d11.png" ><br>行程助手</span>
+			<span title="chepiao.html" ui-sref="chepiao"><img src="img/d15.png" ><br>车票</span>
+			<span title="user.html"  class="bg" ui-sref="user"><img src="img/d13.png" ><br>我</span>
+		</footer>
+	</div>

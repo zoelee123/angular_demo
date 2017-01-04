@@ -1,0 +1,30 @@
+@import url("reset.css");
+ @font-face {
+  font-family: 'iconfont';
+  src: url("../fonts/fontawesome-webfont.ttf") format("truetype"), url("../fonts/fontawesome-webfont.woff") format("woff"); } 
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+html, body, .wrap {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+body {
+  font-size: 16px;background: #F4F4F4;}
+.header{width: 100%;height: 1rem;line-height: 1rem;position: relative;background: #000;border-bottom: 1px solid #ccc;font-size: .5rem;}
+.header h2{width: 100%;text-align: center;font-size: .34rem;font-size: .35rem;color: #fff;padding-top: .2rem;line-height: .3rem;}
+.header h2 b{font-weight: normal;font-size: .24rem;}
+.header span{font-family: "iconfont";position: absolute;left: .2rem;color: #fff;font-size: .32rem;}
+.header strong{font-size: .3rem;position: absolute;right: .2rem;top: 0;color: #fff;font-weight: normal;}
+
+.weixin{width: 100%;height: 100%;overflow: hidden;}
+.top{background: #fff;padding-top: .64rem;}
+.top h2{width: 1.22rem;height: 1.22rem;background: url(../img/b1.png) no-repeat;background-size: 100% 100%;margin: auto;}
+.top h3{font-size: .37rem;text-align: center;padding: .5rem 0;}
+.weixin h4{font-size: .28rem;padding:.4rem .22rem;}
+.weixin h5{padding-left: .22rem;font-size: .24rem;color: #ADADAD;}
+.weixin p{width: 6rem;height: .87rem;background: #0ACC5A;text-align: center;line-height: .87rem;color: #fff;font-size: .36rem;border-radius: 4px;margin:.9rem auto;font-weight: 600;}
+.weixin h5 input{opacity: 0;}
+.weixin h5 label{width: .3rem;height: .3rem;background: url(../img/o7.png) no-repeat;background-size: 100% 100%;position: relative;left:-.2rem;top: .05rem;display:inline-block;z-index: -1;}
+.weixin h5 input:checked+label{background: url(../img/o8.jpg) no-repeat;background-size: 100% 100%;position: relative;}

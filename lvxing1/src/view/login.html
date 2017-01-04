@@ -1,0 +1,22 @@
+<link rel="stylesheet" type="text/css" href="css/login.css">
+
+<div class="wrap">
+	<header class="header">
+		<span id="back" ui-sref="user">&#xf104; 取消</span>
+		<h2>账号登陆</h2>
+	</header>
+	<section id="home" class="weixin">
+		<div class="top">
+			<h2></h2>
+			<h3>悠步旅行</h3>
+		</div>
+		<form ng-submit="one()">
+			<input type="text" placeholder="请输入用户名" ng-model="username">
+			<input type="password" placeholder="请输入密码" ng-model="password">
+			<p><span>忘记密码</span><b>注册</b></p>
+			<button type="submit">登陆</button>
+		</form>
+	</section>
+</div>
+
+

@@ -1,0 +1,29 @@
+@import url("reset.css");
+ @font-face {
+  font-family: 'iconfont';
+  src: url("../fonts/fontawesome-webfont.ttf") format("truetype"), url("../fonts/fontawesome-webfont.woff") format("woff"); } 
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+html, body, .wrap {
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+body {
+  font-size: 16px;background: #F4F4F4;}
+.header{width: 100%;height: .9rem;line-height: .9rem;position: relative;background: #fff;font-size: .4rem;border-bottom: 1px solid #ccc;}
+.header h2{width: 100%;text-align: center;font-weight: bold;}
+.header span{position: absolute;left: .28rem;font-family: "iconfont";font-size: .6rem;}
+.header b{position: absolute;right: .28rem;top:0;font-size: .32rem;}
+
+.success{width: 100%;height: 100%;overflow: hidden;}
+.banner{height: 1.45rem;background: url(../img/p4.jpg) no-repeat;background-size: 100% 100%;}
+.s_box{background: #fff;border-bottom: 1px solid #ccc;border-top: 1px solid #ccc;padding:0 .3rem;}
+.s_box p{border-bottom: 1px solid #ccc;padding: .2rem 0;font-size: .3rem;}
+.s_box h2{font-size: .3rem;padding: .2rem 0;}
+.s_box h3{font-size: .3rem;position: relative;}
+.s_box h3 span{padding-left: .2rem;}
+.s_box h3 i{position: absolute;right: 0;top:-.15rem;font-size: .6rem;color: #999;font-family: "iconfont";font-style: normal;}
+.s_box h4{font-size: .3rem;padding: .2rem 0;}
+.s_box h4 span{color: #FF9501;padding-left: .2rem;}
